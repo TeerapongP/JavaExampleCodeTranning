@@ -2,10 +2,6 @@ package Inheritance;
 
 public class AggressivePlayer extends ParentPlayer {
 
-    public AggressivePlayer(String dressCode, String food, String tasks) {
-        super(dressCode, food, tasks);
-    }
-
     // Implementing a different playing strategy for aggressive players
     @Override
     public void playStrategy() {
