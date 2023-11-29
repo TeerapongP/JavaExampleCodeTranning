@@ -4,9 +4,8 @@ public class main {
 
     public static void main(String[] args) {
 
-        DefensivePlayer defensivePlayer = new DefensivePlayer("", "", "");
-
-        AggressivePlayer aggressivePlayer = new AggressivePlayer("", "", "");
+        DefensivePlayer defensivePlayer = new DefensivePlayer();
+        AggressivePlayer aggressivePlayer = new AggressivePlayer();
 
         // Modify properties using setter methods
         defensivePlayer.setCode("056");

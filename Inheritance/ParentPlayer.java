@@ -6,12 +6,6 @@ public class ParentPlayer {
     private String food;
     private String tasks;
 
-    public ParentPlayer(String code, String food, String tasks) {
-        this.code = code;
-        this.food = food;
-        this.tasks = tasks;
-    }
-
     // Getters for common properties
     public String getCode() {
         return code;
