@@ -1,0 +1,3 @@
+interface Oldman {
+    void show();
+}
