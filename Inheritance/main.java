@@ -9,7 +9,7 @@ public class Main {
 
         // Modify properties using setter methods
         defensivePlayer.setCode("056");
-        defensivePlayer.setFood("Healthy diet");
+        defensivePlayer.setFood("Healthy diet")
         defensivePlayer.setTasks("Guard the base");
 
         aggressivePlayer.setCode("101");
