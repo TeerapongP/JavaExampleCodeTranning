@@ -1,18 +1,24 @@
-package Abstraction;
+package ss;
+
+import ss.model.Phone;
 
 public class Main {
-    // Main method to demonstrate the Squid Game
-    public static void main(String[] args) {
-        // Creating an instance of the SquidGame class
-        SquidGame squidGame = new SquidGame("Manager", "VIP Host 1", 456, 1000000.00);
-
-        // Starting the Squid Game
-        squidGame.startGame();
-
-        // Performing a task in the Squid Game
-        squidGame.performTask("Red Light, Green Light");
-
-        // Ending the Squid Game
-        squidGame.endGame();
+    
+    public static void main(String[] args){
+        // new iphone
+        Phone iphone = new Phone("IPhone", "15 Pro max");
+        // iphone call line to whatxxxxxxx
+        iphone.call("Line","whatxxxxxxx");
+        // iphone take photo Cloud 
+        iphone.takeAPhoto("Cloud.png");
+    
+        // new Samsung
+        Phone samsungS23 = new Phone("Samsung", "S23");
+        // Samsung call Telephone to whatxxxxxxx
+        samsungS23.call("Telephone","089xxxxxx45");
+        // iphone take photo Mountain 
+        samsungS23.takeAPhoto("Mountain.png");
+    
     }
+
 }
