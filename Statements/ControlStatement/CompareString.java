@@ -18,6 +18,12 @@ public class CompareString {
             System.out.println("not Equal");
         }
 
+        if (appName == appName2) {
+            System.out.println("Equal");
+        } else {
+            System.out.println("not Equal");
+        }
+
         if (appNameObj.equals(appName2Obj)) {
             System.out.println("Equal");
         } else {
