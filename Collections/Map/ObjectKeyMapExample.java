@@ -2,25 +2,27 @@ package Collections.Map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class ObjectKeyMapExample {
     public static void main(String[] args) {
-        // Create a Map with keys as objects and values as strings
-        Map<Object, String> objectKeyMap = new HashMap<>();
+        // Create a generic Map with keys as objects and values as Strings
+        Map<Object, String> objectStringMap = new HashMap<>();
 
-        // Create objects to be used as keys
-        Object name = new Object();
-        Object lastName = new Object();
-        Object age = new Object();
+        // Putting entries into the map
+        objectStringMap.put("key1", "Value1");
+        objectStringMap.put(123, "Value2");
 
-        // Add key-value pairs to the map
-        objectKeyMap.put(name, "Teerapong");
-        objectKeyMap.put(lastName, "Pinkaew");
-        objectKeyMap.put(age, "23");
-
-        // Access values using keys
-        System.out.println("My Name is " + objectKeyMap.get(name) + "\nMy Lastname is " + objectKeyMap.get(lastName)
-                + "\nAge is " + objectKeyMap.get(age));
+        // get values using objects as keys
+        System.out.println(objectStringMap.get("key1"));
+        System.out.println(objectStringMap.get(123));
 
     }
 }
+// Retrieve the set of keys
+// Set<Object> keySet = objectStringMap.keySet();
+
+// // Iterate over the keys and print them
+// for (Object key : keySet) {
+// System.out.println("Key: " + key);
+// }
