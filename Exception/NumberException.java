@@ -22,7 +22,6 @@ public class NumberException {
 
     static void readInputNumber() {
         Scanner scanner = new Scanner(System.in);
-
         try {
             System.out.println("Enter Number : ");
             int inputNum = scanner.nextInt();
